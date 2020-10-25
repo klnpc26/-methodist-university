@@ -1,20 +1,27 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
 body{
-	background-color: beige;
+	background-color: teal;
 	color:black;
 }
 
 #Titulo{
-	font-size: 60px;
-	font-style: oblique;
+	margin-top: 0px;
+	font-weight: bold;
+	font-size: 50px;
+	font-family: Courier New, monospace;
 }
 
 .rodape_final  {
 	background-color: black;
-	color:white;
-	display:flex;
+	color: white;
 	width: 100%;
+	display:flex;
 	position: absolute;
-	justify-content: space-around;
+	box-shadow: 0px 0px 10px black;
+    justify-content: space-around;
 }
 
 a{
@@ -22,11 +29,18 @@ a{
 	color:white;
 }
 
-.display{
-	display:flex;
-}
-
 .principal{
 	width:450px;
 	display:inline-block;
+}
+
+.caixa{
+	width:550px;
+	height:70px;
+	top:0px;
+	left:0px;
+	border:0px;
+	position:relative;
+	padding:1px;
+	background:rgb(102,58,87);
 }
