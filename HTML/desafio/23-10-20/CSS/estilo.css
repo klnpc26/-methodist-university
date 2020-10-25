@@ -1,0 +1,41 @@
+.Titulo_primario{
+	text-align:center;
+	font-family:Arial;
+	font-size:26px;
+	color:white;
+}
+
+.Titulo_secundario{
+	text-align:left;
+	line-height: 0;
+	font-family:Arial;
+	font-size:18px;
+	color:darkorange;
+
+}
+
+.caixa{
+	width:550px;
+	height:70px;
+	top:0px;
+	left:0px;
+	border:0px;
+	position:relative;
+	padding:1px;
+	background:rgb(102,58,87);
+}
+
+.paragrafos{
+	font-family:Arial;
+	font-size:14px;
+	text-align:justify;
+	padding:50px;
+	color:black;
+}
+
+a{
+	text-decoration: none;
+	color:black;
+}
+
+@media not (monochrome)
